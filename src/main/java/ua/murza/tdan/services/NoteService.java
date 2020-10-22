@@ -60,7 +60,6 @@ public class NoteService {
             } else {
                 note.setIReadyToRemoveIt(true);
                 note.setRemoveDate(LocalDate.now().plusDays(14));
-                //todo Помещать в шедулер
             }
         } else {
             //todo Success-ответ по поводу того, что пользователь не имеет доступа к сообщению.
