@@ -27,7 +27,7 @@ public class User implements UserDetails {
     @GeneratedValue(generator = "system-uuid")
     @GenericGenerator(name = "system-uuid", strategy = "uuid2")
     @Column(name = "user_id", nullable = false)
-    private String id;
+    private String userId;
 
     @Email
     private String email;

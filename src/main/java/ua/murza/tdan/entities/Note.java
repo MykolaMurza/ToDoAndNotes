@@ -22,7 +22,7 @@ public class Note {
     @Column(length = 45)
     private String title;
     @Column(length = 600)
-    private String description;
+    private String text;
     @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "dd.MM.yyyy  HH:mm:ss")
     private LocalDateTime dateTime;
     private boolean iReadyToRemoveIt;
