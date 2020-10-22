@@ -16,7 +16,7 @@ import java.time.LocalDateTime;
 public class ToDo {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private long id;
+    private long todoId;
 
     @Column(length = 45)
     private String title;

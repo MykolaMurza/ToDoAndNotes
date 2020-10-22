@@ -16,7 +16,7 @@ import java.time.LocalDateTime;
 public class Message {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private long id;
+    private long messageId;
 
     private String text;
     @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "dd.MM.yyyy  HH:mm:ss")
